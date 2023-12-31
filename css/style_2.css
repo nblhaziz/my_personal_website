@@ -1,0 +1,36 @@
+table, tr, th, td
+		{
+			border: 3px solid hotpink;
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+		tr, td, th
+		{
+			padding: 5px;
+		}
+		td:nth-child
+		{
+			text-align: center;
+			color: darkblue;
+		}		
+		tr:nth-child(odd)
+		{
+			background-color: whitesmoke;
+		}
+		th:nth-child(even)
+		{
+			background-color: lightblue;
+			color: darkblue;
+			text-align: right;
+		}
+		td:hover
+		{
+			background-color: palevioletred;
+		}
+		button
+		{
+			background-color: beige;
+			color: lightpink;
+			padding: 10px;
+		}
